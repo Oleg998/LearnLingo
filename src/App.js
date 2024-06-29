@@ -1,12 +1,11 @@
-
-import './App.css';
-
+import { Routes, Route } from "react-router-dom";
+import Navbar from "./components/NavBar/Navbar.jsx";
+import css from "./app.module.css"
 function App() {
   return (
-    <div className="App">
+    <div className={css.conteiner}  >
      
-     
-    </div>
+     <Navbar/> </div>
   );
 }
 

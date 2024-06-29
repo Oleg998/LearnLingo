@@ -1,0 +1,35 @@
+.block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+.block_log_in {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+.registration {
+  border-radius: 12px;
+  padding: 14px 39px;
+  width: 166px;
+  height: 48px;
+  background: #121417;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 125%;
+  color: #fff;
+}
+.logo_in {
+  height: 20px;
+  width: 20px;
+  
+}
+.logo_in_text {
+
+font-weight: 700;
+font-size: 16px;
+line-height: 125%;
+color: #121417;
+}

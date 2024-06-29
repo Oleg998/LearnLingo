@@ -1,0 +1,16 @@
+
+.header_nav_block{
+    display: flex;
+    flex-direction: row ;
+    gap: 28px;
+}
+.header_nav{
+font-weight: 400;
+font-size: 16px;
+line-height: 125%;
+color: #121417;
+}
+
+.header_nav:global(.active){
+    color: red;
+}
