@@ -3,6 +3,8 @@ import MainMenu from "./NavBarMenu/NavBarMenu.jsx";
 import css from "./navbar.module.css";
 import { Link } from "react-router-dom";
 import NavBarUser from "./NavBarUser/NavBarUser.jsx"
+
+
 const Navbar = () => {
   const isLogin = false
   return (
@@ -21,7 +23,7 @@ const Navbar = () => {
       <MainMenu />
 
       {isLogin ? <NavBarUser/> : <NavBarAuth/> }
-      
+    
     </div>
   );
 };
