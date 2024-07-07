@@ -1,7 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import css from "./navBarMenu.module.css";
-import { RxHamburgerMenu } from "react-icons/rx";
+
 const MainMenu = () => {
   return (
     <>
@@ -13,10 +13,7 @@ const MainMenu = () => {
         <NavLink to= "/teachers" className={css.header_nav}>Teachers</NavLink>
       </li>
     </ul>
-    <div className={css.mb_btn}>
-      
-      <RxHamburgerMenu  size={36}/>
-      </div>
+ 
     </>
    
   );

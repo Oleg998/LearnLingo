@@ -1,6 +1,11 @@
 .conteiner {
-    width: 100%; 
-    margin: 0 auto;
+  width: 100%;
+  margin: 0 auto;
+}
+
+@media (min-width: 768) {
+  .conteiner {
     padding-left: 64px;
     padding-right: 64px;
+  }
 }
